@@ -1,17 +1,24 @@
-import React from 'react'
-import NavBar from '../components/navbar'
-import Footer from '../components/footer'
+import React from "react";
+import NavBar from "../components/navbar";
+import Footer from "../components/footer";
+import RafiNameCard from "../components/name-card/rafi";
 
 function AboutPage() {
   return (
     <div>
-        <NavBar />
+      <NavBar />
+      <div className="min-h-screen py-24 ">
+        <div className="flex gap-8 flex-wrap items-center justify-center w-full px-4">
+        
+        <RafiNameCard />
+        {/* Panggil kartu nama kamu dibawah sini..... */}
 
-        <h1>Ini adalah about page</h1>
 
-        <Footer />
+        </div>
+      </div>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default AboutPage
+export default AboutPage;
