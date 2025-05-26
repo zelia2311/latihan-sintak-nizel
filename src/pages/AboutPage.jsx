@@ -7,7 +7,7 @@ function AboutPage() {
     <div>
         <NavBar />
 
-        <h1>About</h1>
+        <h1>Ini adalah about page</h1>
 
         <Footer />
     </div>
