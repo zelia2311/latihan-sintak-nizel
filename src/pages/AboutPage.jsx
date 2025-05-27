@@ -30,7 +30,6 @@ function AboutPage() {
 
         {/* Panggil kartu nama kamu dibawah sini..... */}
         <Namecard />
-=======
         <MuteaNamecard />
 
         <FazelNameCard/>
