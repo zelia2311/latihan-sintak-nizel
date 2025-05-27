@@ -18,7 +18,7 @@ function RafiNameCard() {
         </div>
         <p className="text-gray-500">
           "Halo, perkenalkan nama saya Kgs. M. Rafiussyakban saya adalah salah
-          satu mentor dari SINTAK 2025. Salam kenal semuanya..."
+          satu mentor dari SINTAK 2025. Salam kenal semuanya...  "
         </p>
         <a
           href="https://www.instagram.com/rafius.rafi/" target="blank"
