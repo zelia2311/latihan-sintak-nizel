@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import RafiNameCard from "../components/name-card/rafi";
+import AisyahNameCard from "../components/name-card/aisyah";
 
 function AboutPage() {
   return (
@@ -12,7 +13,7 @@ function AboutPage() {
         
         <RafiNameCard />
         {/* Panggil kartu nama kamu dibawah sini..... */}
-
+        <AisyahNameCard />
 
         </div>
       </div>
