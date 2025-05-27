@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import RafiNameCard from "../components/name-card/rafi";
 import AyuNameCard from "../components/name-card/ayu";
 import Fajar from "../components/name-card/fajar";
+import AndinNameCard from "../components/name-card/andin";
 
 function AboutPage() {
   return (
@@ -18,6 +19,7 @@ function AboutPage() {
 <AyuNameCard/>
 
         <Fajar />
+        <AndinNameCard/>
 
 
         </div>
