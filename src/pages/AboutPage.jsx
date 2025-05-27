@@ -3,7 +3,7 @@ import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import RafiNameCard from "../components/name-card/rafi";
 import Namecard from "../components/name-card/nizel";
-=======
+
 
 import MuteaNamecard from "../components/name-card/mutea";
 
