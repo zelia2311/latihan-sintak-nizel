@@ -3,6 +3,10 @@ import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import RafiNameCard from "../components/name-card/rafi";
 import Namecard from "../components/name-card/nizel";
+import DindaNamecard from "../components/name-card/dinda";
+import AyuNameCard from "../components/name-card/ayu";
+import Fajar from "../components/name-card/fajar";
+
 
 function AboutPage() {
   return (
@@ -14,6 +18,13 @@ function AboutPage() {
         <RafiNameCard />
         {/* Panggil kartu nama kamu dibawah sini..... */}
         <Namecard />
+
+        <DindaNamecard />
+
+
+<AyuNameCard/>
+
+        <Fajar />
 
 
         </div>
