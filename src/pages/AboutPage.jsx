@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import RafiNameCard from "../components/name-card/rafi";
+import FazelNameCard from "../components/name-card/fazel";
 
 import AisyahNameCard from "../components/name-card/aisyah";
 
@@ -19,6 +20,9 @@ function AboutPage() {
         <RafiNameCard />
         {/* Panggil kartu nama kamu dibawah sini..... */}
 
+        <FazelNameCard/>
+
+
         <AisyahNameCard />
 
 
@@ -28,6 +32,7 @@ function AboutPage() {
 <AyuNameCard/>
 
         <Fajar />
+
 
 
 
