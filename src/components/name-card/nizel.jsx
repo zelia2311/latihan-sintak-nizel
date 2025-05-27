@@ -1,9 +1,10 @@
+import { Instagram } from "lucide-react";
 import React from "react";
 
 function Namecard() {
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <div className="border border-black-300 p-2 flex flex-col rounded-lg max-w-sm gap-2">
+    <div className="border border-gray-300 p-4 rounded-lg max-w-sm">
+      <div className=" flex flex-col rounded-lg max-w-sm gap-4">
         <img
           src="./nzl.jpg"
           alt="logo"
@@ -18,7 +19,7 @@ function Namecard() {
         </div>
 
         <p className="text-gray-500">
-          "Halo salam kenal,follow instagram aku ya!"
+          "Halo salam kenal, aku Nizelia Khairunisa saya adalah salah satu peserta pelatihan dari SINTAK 2025.Follow instagram aku yaaa!"
         </p>
 
         <a
@@ -26,6 +27,7 @@ function Namecard() {
           target="blank"
           className="flex items-center justify-center gap-2 bg-black text-white py-2 rounded-md animate-bounce"
         >
+          <Instagram size= {18} />
           Instagram
         </a>
       </div>
